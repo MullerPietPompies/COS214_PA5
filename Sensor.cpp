@@ -1,4 +1,5 @@
 #include "Sensor.h"
+#include <algorithm>
 
 // Sensor Implementation
 void Sensor::addDevice(Observer* device) {

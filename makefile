@@ -5,10 +5,10 @@ CXX = g++
 CXXFLAGS = -std=c++11 -Wall -Wextra -pedantic
 
 # Executable name
-EXEC = prac3.out
+EXEC = prac5.out
 
 # Source files
-SOURCES = 
+SOURCES = Command.cpp Doorlock.cpp Light.cpp Sensor.cpp SmartDevice.cpp SmartThermostatAdapter.cpp TestingMain.cpp
 # Object files
 OBJECTS = $(SOURCES:.cpp=.o)
 

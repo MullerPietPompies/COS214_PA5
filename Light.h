@@ -1,3 +1,11 @@
+/**
+ * @class Light
+ * @brief A class representing a smart light device.
+ * 
+ * This class represents a smart light, which can be toggled
+ * on or off as part of a smart home automation system.
+ */
+
 #ifndef LIGHT_H
 #define LIGHT_H
 
@@ -7,7 +15,7 @@
 
 class Light : public SmartDevice{
     private:
-        bool isOn;
+        bool isOn; ///< Indicates whether the light is on or off.
     public:
         Light();
         std::string getStatus() override;
